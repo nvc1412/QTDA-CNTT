@@ -15,7 +15,7 @@ namespace QuanLyCuaHangGiaDung.ConnectDB
         {
             try
             {
-                string connect = @"Data Source=localhost;Initial Catalog=QuanLyCuaHangGiaDungKimNgan;Integrated Security=True";
+                string connect = @"Data Source=localhost;Initial Catalog=CuaHangGiaDungKimNgan;Integrated Security=True";
                 conn = new SqlConnection(connect);
                 return conn;
             }
